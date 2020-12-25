@@ -1,0 +1,71 @@
+:root {
+  --primaryColor: rgb(0, 0, 0);
+  --secondaryColor: white;
+}
+
+/* p,
+span,
+small {
+  font-family: "Montserrat", sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Abril Fatface", cursive;
+}
+
+button.btn {
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primaryColor);
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(96, 185, 207);
+  border: 1px solid white;
+}
+
+.App,
+p,
+small {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  color: var(--secondaryColor);
+}
+
+body {
+  margin: 2rem;
+  background: #17183a;
+}
+
+hr {
+  border: 2px dotted skyblue;
+}
+
+img {
+  min-height: 200px;
+  width: 150px;
+  object-fit: fill;
+  padding: 1rem 0rem 1rem 1rem;
+}
+li {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-color: var(--primaryColor);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+ul {
+  padding-inline-start: 0;
+}
